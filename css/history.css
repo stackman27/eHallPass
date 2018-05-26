@@ -1,0 +1,60 @@
+
+.txtbox_searchDate{
+    width: 25%;
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    font-size: 14px;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+    font-size: 14px;
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+    font-size: 14px;
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+    font-size: 14px;
+ }
+ 
+  .deletebtn{
+    text-align:center
+ }
+ 
+  .deletebtn button{
+   text-decoration: none;
+    background: transparent;
+    border: none;
+}
+
+.container .hisDates{ 
+    overflow: hidden;
+    height: auto;
+} 
+
+
+@media screen and (max-width: 1024px) {
+    .txtbox_searchDate{
+        width: 50%; 
+    }
+}  
+
+
+@media screen and (max-width: 767px) {
+
+    .container{  
+        margin: 0;
+        padding: 0;
+        min-width: 600px;
+    }
+
+    .container .hisDates{
+        width: 100%;
+        
+    }     
+}
+ 

@@ -1,0 +1,72 @@
+label{
+    color: gray;
+}
+
+.coverdiv{
+    height: auto;
+    overflow: hidden;
+    background: #eee; 
+    width: 80%;
+    margin: 0 auto;
+}
+
+.coverdiv .nav-justified{
+    margin: 0px !important;
+    background: #55657D !important;
+    border: 1px solid lightgray !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.10), 0 1px 1px rgba(0,0,0,0.1) !important; 
+}
+
+.coverdiv .nav-justified li h5{
+    color: #fafafa; 
+}
+
+.formlogin{
+    margin: 30px;
+}
+
+.formlogin .wrapAddon{
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.formlogin .wrapAddon a{
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+ .error{
+    border-bottom: solid 2px #FF0000 !important;  
+}
+
+.formRegister{
+    margin: 30px;
+}
+
+.formRegister .wrapAddon{
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.formRegister .wrapAddon p{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px; 
+    width: 90%;
+    font-size: 18px;
+}
+
+.formRegister .wrapAddon h5 a{
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+ 
+@media screen and (max-width: 991px) {
+    .img{
+        display: none;
+        width: 20px;
+    }
+}

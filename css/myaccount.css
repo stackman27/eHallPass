@@ -1,0 +1,179 @@
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+    }
+
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    font-size: 14px;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+    font-size: 14px;
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+    font-size: 14px;
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+    font-size: 14px;
+ }
+
+ .holdTable{
+     background: white;
+     margin-top: 60px;
+     padding: 20px;
+     border: 1px solid #eee;
+ }
+
+ .latestdates{
+   width: 96%;
+   font-size: 16px;
+   font-weight: 600;
+   margin: 0 auto;  
+ }
+
+ .latestdates a{
+     border-radius: 0px;
+     border-top: none; 
+     border-bottom: none; 
+     border-right: 1px solid lightgray; 
+     padding: 10px; 
+     margin: 0; 
+     text-align: center; 
+     text-decoration: none; 
+     background: white;
+ }
+
+ .holdTable .dataTable{
+    width: 97%;
+    margin: 0 auto; 
+ }
+
+ .holdTable .dataTable thead tr th{
+     text-align: center;
+ }
+
+ 
+ .holdall_btns{
+    width: 98%;
+    background: red;
+    height: auto;
+    margin: 0 auto;
+ 
+}
+
+.holdall_btns .holdSearch{
+    width: 60%; 
+    float: left;
+    
+}
+
+.holdall_btns .holdBtns{
+    width: 40%; 
+    float: right;
+    text-align: right;
+}
+
+.nav-stacked li a{
+    font-size: 1.4em;
+}
+
+.dataTable .deletebtn{
+    text-align:center
+ }
+ 
+
+.dataTable .deletebtn button{
+   text-decoration: none;
+    background: transparent;
+    border: none;
+}
+
+
+@media screen and (max-width: 991px) {
+    #uProfile{
+        display: none;
+    }
+
+    .latestdates{ 
+        width: 100%; 
+        text-align: center;
+    }
+
+    .latestdates a{   
+       border: 1px solid lightgray;    
+       padding: 15px;
+    } 
+   
+    .wrapallDate{
+        margin-top: -25px;
+        background: white; 
+        overflow: none;
+        padding: 20px 0px 20px;
+        position: relative;
+    }
+
+}    
+  
+ @media screen and (max-width: 767px) {
+
+    .wrapallDate{
+        margin-top: -25px;
+        background: white; 
+        overflow: none;
+        padding: 20px 0px 20px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        min-width:600px;
+    }
+    
+    .latestdates{ 
+        width: 100%;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+
+    .latestdates a{ 
+       line-height: 60px;
+       border: 1px solid lightgray;    
+       padding: 15px;
+    } 
+   
+
+    #uProfile{
+        display: none;
+    }
+ 
+
+    .holdTable{
+        background: white;
+        margin-top: 20px; 
+        overflow: none;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .holdall_btns{
+        width: 96%; 
+        margin-top: 20px;
+        padding: 0;
+    }
+    
+    .holdall_btns .holdSearch{
+        width: 60%; 
+        float: left;
+    }
+
+    .holdall_btns .holdBtns{
+        width: 40%; 
+        float: left;
+    }
+    
+    .dataTable thead tr th{
+       width:100px;
+    }
+    
+ }
